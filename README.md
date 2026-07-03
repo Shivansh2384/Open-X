@@ -19,7 +19,7 @@ OpenX uses a **server-side secret key** that is **never** pushed to GitHub:
 | `.env` (your machine) | ✅ gitignored — never committed |
 | `.env.example` (in repo) | ❌ Placeholder only (`your-key-here`) |
 | Vercel Environment Variables | ✅ Secret — only the server can read it |
-| Website visitors / browser | ❌ Never see it, never see "NVIDIA" |
+| Website visitors / browser | ❌ Never see it, never see "SHIVANSH_API_KEY" |
 
 The model shown to users is always **ShivanshAI-1.1**. The real backend engine
 and its provider are abstracted away on the server — visitors only ever see the
